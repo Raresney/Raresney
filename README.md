@@ -1,6 +1,10 @@
-# Rareș Bighiu
+# Bighiu Rareș
 
-Mathematics and Computer Science student at Alexandru Ioan Cuza University in Iași. Right now I'm focused on information security and security research, mostly the offensive side: recon, exploitation, and red-team practice, plus the tooling that detects or stops the same attacks.
+Currently working as an Information Security & Tools Specialist, with a strong interest in offensive security and practical cybersecurity research.
+
+I work with security platforms and monitoring tools, analyzing security events, investigating alerts, and supporting incident response to help improve an organization's security. Alongside that, I explore process behavior, detection mechanisms, and system-level security through hands-on projects and research.
+
+I use Python to develop automation tools, monitoring utilities, and security-focused proof-of-concepts. I also do web security testing with Burp Suite, exploring vulnerabilities and testing real-world scenarios in a bug bounty context.
 
 ## What I build
 
