@@ -1,6 +1,6 @@
 # Rareș Bighiu
 
-Mathematics and Computer Science student at Alexandru Ioan Cuza University in Iași. I work mostly in security, with a focus on offensive work: recon, exploitation, and red-team practice, plus the tooling that detects or stops the same attacks.
+Mathematics and Computer Science student at Alexandru Ioan Cuza University in Iași. Right now I'm focused on information security and security research, mostly the offensive side: recon, exploitation, and red-team practice, plus the tooling that detects or stops the same attacks.
 
 ## What I build
 
@@ -12,7 +12,15 @@ Mathematics and Computer Science student at Alexandru Ioan Cuza University in Ia
 
 ## Tools I reach for
 
-Python, TypeScript, Rust, Linux, networking, and the usual machine learning basics.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Rust-000000?logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white" alt="Wireshark" />
+  <img src="https://img.shields.io/badge/Nmap-4682B4" alt="Nmap" />
+</p>
 
 ## Find me
 
