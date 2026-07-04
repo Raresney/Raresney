@@ -1,6 +1,6 @@
 # Bighiu Rareș
 
-Currently working as an Information Security & Tools Specialist, with a strong interest in offensive security and practical cybersecurity research.
+Currently working as a Cyber Security Analyst, with a strong interest in offensive security and practical cybersecurity research.
 
 I work with security platforms and monitoring tools, analyzing security events, investigating alerts, and supporting incident response to help improve an organization's security. Alongside that, I explore process behavior, detection mechanisms, and system-level security through hands-on projects and research.
 
