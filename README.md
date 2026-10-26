@@ -2,7 +2,7 @@
 
 Currently working as a Cyber Security Analyst, with a strong interest in offensive security and practical cybersecurity research.
 
-I work with security platforms and monitoring tools, analyzing security events, investigating alerts, and supporting incident response to help improve an organization's security. Alongside that, I explore process behavior, detection mechanisms, and system-level security through hands-on projects and research.
+I work with security platforms and monitoring tools, analyzing security events, investigating alerts, and supporting incident response to help improve an organization's security. Alongside that, I explore process behavior, detection mechanisms, and system-level security through hands-on projects and research. Open source contributor.
 
 I use Python to develop automation tools, monitoring utilities, and security-focused proof-of-concepts. I also do web security testing with Burp Suite, exploring vulnerabilities and testing real-world scenarios in a bug bounty context.
 
