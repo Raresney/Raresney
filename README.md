@@ -36,10 +36,6 @@ GitHub: [@Raresney](https://github.com/Raresney)
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raresney/Raresney/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raresney/Raresney/output/github-contribution-grid-snake.svg" />
-  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Raresney/Raresney/output/github-contribution-grid-snake.svg" />
-</picture>
+<img alt="Terminal running a recon session" src="hacker-terminal.svg" width="820" />
 
 </div>
