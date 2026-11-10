@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="210" viewBox="0 0 720 210" role="img" aria-label="Terminal printing bio via whoami">
+  <title>rares@kali — whoami</title>
+  <defs>
+    <style>
+      .win{fill:#0b0e14}.bar{fill:#141925}
+      .title{fill:#6b7389;font:13px 'JetBrains Mono','Fira Code',Consolas,Monaco,monospace}
+      .mono{font:15px 'JetBrains Mono','Fira Code',Consolas,Monaco,monospace}
+      .p{fill:#2ee66b}.c{fill:#c8d3f5}.name{fill:#c8d3f5;font-weight:bold}.cy{fill:#7dcfff}
+      .cur{fill:#2ee66b;visibility:hidden;animation:blink .9s steps(1,end) infinite}
+      #c1{animation:blink .9s steps(1,end) infinite,g1 12s steps(1,end) infinite}
+      #c2{animation:blink .9s steps(1,end) infinite,g2 12s steps(1,end) infinite}
+      #c3{animation:blink .9s steps(1,end) infinite,g3 12s steps(1,end) infinite}
+      #c4{animation:blink .9s steps(1,end) infinite,g4 12s steps(1,end) infinite}
+      #c5{animation:blink .9s steps(1,end) infinite,g5 12s steps(1,end) infinite}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes g1{0%{visibility:hidden}12%{visibility:visible}16%{visibility:hidden}100%{visibility:hidden}}
+      @keyframes g2{0%{visibility:hidden}26%{visibility:visible}30%{visibility:hidden}100%{visibility:hidden}}
+      @keyframes g3{0%{visibility:hidden}40%{visibility:visible}44%{visibility:hidden}100%{visibility:hidden}}
+      @keyframes g4{0%{visibility:hidden}54%{visibility:visible}58%{visibility:hidden}100%{visibility:hidden}}
+      @keyframes g5{0%{visibility:hidden}68%{visibility:visible}94%{visibility:hidden}100%{visibility:hidden}}
+      #k1 rect{animation:t1 12s linear infinite}
+      #k2 rect{animation:t2 12s linear infinite}
+      #k3 rect{animation:t3 12s linear infinite}
+      #k4 rect{animation:t4 12s linear infinite}
+      #k5 rect{animation:t5 12s linear infinite}
+      @keyframes t1{0%,2%{width:0}12%{width:180px}94%{width:180px}94.001%{width:0}100%{width:0}}
+      @keyframes t2{0%,16%{width:0}26%{width:405px}94%{width:405px}94.001%{width:0}100%{width:0}}
+      @keyframes t3{0%,30%{width:0}40%{width:360px}94%{width:360px}94.001%{width:0}100%{width:0}}
+      @keyframes t4{0%,44%{width:0}54%{width:333px}94%{width:333px}94.001%{width:0}100%{width:0}}
+      @keyframes t5{0%,58%{width:0}68%{width:351px}94%{width:351px}94.001%{width:0}100%{width:0}}
+      @media (prefers-reduced-motion:reduce){#k1 rect,#k2 rect,#k3 rect,#k4 rect,#k5 rect{animation:none;width:460px}.cur{animation:none;visibility:hidden}}
+    </style>
+    <clipPath id="k1"><rect x="24" y="66" height="22" width="0"/></clipPath>
+    <clipPath id="k2"><rect x="24" y="92" height="22" width="0"/></clipPath>
+    <clipPath id="k3"><rect x="24" y="118" height="22" width="0"/></clipPath>
+    <clipPath id="k4"><rect x="24" y="144" height="22" width="0"/></clipPath>
+    <clipPath id="k5"><rect x="24" y="170" height="22" width="0"/></clipPath>
+  </defs>
+  <rect class="win" x="8" y="8" width="704" height="194" rx="12"/>
+  <rect class="bar" x="8" y="8" width="704" height="40" rx="12"/>
+  <rect class="bar" x="8" y="36" width="704" height="12"/>
+  <circle cx="32" cy="28" r="6" fill="#ff5f56"/><circle cx="54" cy="28" r="6" fill="#ffbd2e"/><circle cx="76" cy="28" r="6" fill="#27c93f"/>
+  <text class="title" x="360" y="32" text-anchor="middle">rares@kali: ~ — zsh</text>
+  <g class="mono">
+    <g clip-path="url(#k1)"><text x="24" y="80"><tspan class="p">rares@kali:~$ </tspan><tspan class="c">whoami</tspan></text></g>
+    <g clip-path="url(#k2)"><text x="24" y="106" class="name">Bighiu Rareș · Cyber Security Analyst (CSIRT)</text></g>
+    <g clip-path="url(#k3)"><text x="24" y="132" class="cy">offensive security · detection · research</text></g>
+    <g clip-path="url(#k4)"><text x="24" y="158" class="cy">web pentest &amp; bug bounty · Burp Suite</text></g>
+    <g clip-path="url(#k5)"><text x="24" y="184" class="cy">Python automation · security PoCs · OSS</text></g>
+  </g>
+  <rect id="c1" class="cur" x="204" y="66" width="9" height="17"/>
+  <rect id="c2" class="cur" x="429" y="92" width="9" height="17"/>
+  <rect id="c3" class="cur" x="384" y="118" width="9" height="17"/>
+  <rect id="c4" class="cur" x="357" y="144" width="9" height="17"/>
+  <rect id="c5" class="cur" x="375" y="170" width="9" height="17"/>
+</svg>
