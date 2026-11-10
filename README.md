@@ -1,6 +1,6 @@
 # Bighiu Rareș
 
-<img alt="whoami — bio" src="whoami.svg" width="720" />
+<img alt="whoami — bio" src="whoami.svg?v=2" width="720" />
 
 ## What I build
 
@@ -12,7 +12,7 @@
 
 ## Tools I reach for
 
-<img alt="cat skills.txt" src="skills.svg" width="720" />
+<img alt="cat skills.txt" src="skills.svg?v=2" width="720" />
 
 ## Find me
 
