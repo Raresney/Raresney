@@ -4,11 +4,12 @@
 
 ## What I build
 
-- Offensive security: recon, exploitation, and red-team experiments
-- Tools that detect and redact sensitive data
-- AI security: prompt injection and phishing detection
-- Network traffic analysis and visualization
-- Hands-on cybersecurity labs
+- **[HuntKit](https://github.com/Raresney/HuntKit)** — bug-bounty recon & methodology copilot that drives the Kali toolchain and organises findings per program
+- **[ShotShield](https://github.com/Raresney/ShotShield)** — on-device redactor for sensitive data (API keys, IBANs, cards, IDs) in screenshots; nothing leaves your machine
+- **[bugbounty-lab](https://github.com/Raresney/bugbounty-lab)** — intentionally-vulnerable web-security labs (IDOR, BAC, XSS, CSRF) plus research writeups
+- **[AI-Security-Research](https://github.com/Raresney/AI-Security-Research)** — offensive & defensive tooling for LLM robustness, prompt injection and phishing detection
+- **[PacketHighway](https://github.com/Raresney/PacketHighway)** — real-time 3D network-traffic visualization (scapy + React Three Fiber)
+- **[Cyber-lab](https://github.com/Raresney/Cyber-lab)** — hands-on lab: Python security tools, network analysis and pentest practice
 
 ## Tools I reach for
 
