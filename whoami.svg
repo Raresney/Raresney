@@ -1,56 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="210" viewBox="0 0 720 210" role="img" aria-label="Terminal printing bio via whoami">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="450" viewBox="0 0 760 450" role="img" aria-label="Terminal printing bio via whoami">
   <title>rares@kali — whoami</title>
   <defs>
     <style>
       .win{fill:#0b0e14}.bar{fill:#141925}
       .title{fill:#6b7389;font:13px 'JetBrains Mono','Fira Code',Consolas,Monaco,monospace}
       .mono{font:15px 'JetBrains Mono','Fira Code',Consolas,Monaco,monospace}
-      .p{fill:#2ee66b}.c{fill:#c8d3f5}.name{fill:#c8d3f5;font-weight:bold}.cy{fill:#7dcfff}
-      .cur{fill:#2ee66b;visibility:hidden;animation:blink .9s steps(1,end) infinite}
-      #c1{animation:blink .9s steps(1,end) infinite,g1 12s steps(1,end) infinite}
-      #c2{animation:blink .9s steps(1,end) infinite,g2 12s steps(1,end) infinite}
-      #c3{animation:blink .9s steps(1,end) infinite,g3 12s steps(1,end) infinite}
-      #c4{animation:blink .9s steps(1,end) infinite,g4 12s steps(1,end) infinite}
-      #c5{animation:blink .9s steps(1,end) infinite,g5 12s steps(1,end) infinite}
+      .p{fill:#2ee66b}.c{fill:#c8d3f5}.bio{fill:#b0bad2}
+      /* each line wipes in once, then holds (fill-mode forwards, no loop) */
+      @keyframes type{from{width:0}to{width:700px}}
+      #k1 rect{animation:type .5s linear .2s forwards}
+      #k2 rect{animation:type .6s linear 1.0s forwards}
+      #k3 rect{animation:type .6s linear 1.7s forwards}
+      #k4 rect{animation:type .6s linear 2.6s forwards}
+      #k5 rect{animation:type .6s linear 3.3s forwards}
+      #k6 rect{animation:type .6s linear 4.0s forwards}
+      #k7 rect{animation:type .6s linear 4.7s forwards}
+      #k8 rect{animation:type .6s linear 5.4s forwards}
+      #k9 rect{animation:type .6s linear 6.3s forwards}
+      #k10 rect{animation:type .6s linear 7.0s forwards}
+      #k11 rect{animation:type .6s linear 7.7s forwards}
+      #k12 rect{animation:type .6s linear 8.4s forwards}
+      /* resting cursor: appears after last line, then blinks forever */
+      .curEnd{visibility:hidden;fill:#2ee66b}
+      #curEnd{animation:show 9.3s steps(1,end) forwards,blink 1s steps(1,end) 9.2s infinite}
+      @keyframes show{0%,97%{visibility:hidden}100%{visibility:visible}}
       @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
-      @keyframes g1{0%{visibility:hidden}12%{visibility:visible}16%{visibility:hidden}100%{visibility:hidden}}
-      @keyframes g2{0%{visibility:hidden}26%{visibility:visible}30%{visibility:hidden}100%{visibility:hidden}}
-      @keyframes g3{0%{visibility:hidden}40%{visibility:visible}44%{visibility:hidden}100%{visibility:hidden}}
-      @keyframes g4{0%{visibility:hidden}54%{visibility:visible}58%{visibility:hidden}100%{visibility:hidden}}
-      @keyframes g5{0%{visibility:hidden}68%{visibility:visible}94%{visibility:hidden}100%{visibility:hidden}}
-      #k1 rect{animation:t1 12s linear infinite}
-      #k2 rect{animation:t2 12s linear infinite}
-      #k3 rect{animation:t3 12s linear infinite}
-      #k4 rect{animation:t4 12s linear infinite}
-      #k5 rect{animation:t5 12s linear infinite}
-      @keyframes t1{0%,2%{width:0}12%{width:180px}94%{width:180px}94.001%{width:0}100%{width:0}}
-      @keyframes t2{0%,16%{width:0}26%{width:405px}94%{width:405px}94.001%{width:0}100%{width:0}}
-      @keyframes t3{0%,30%{width:0}40%{width:360px}94%{width:360px}94.001%{width:0}100%{width:0}}
-      @keyframes t4{0%,44%{width:0}54%{width:333px}94%{width:333px}94.001%{width:0}100%{width:0}}
-      @keyframes t5{0%,58%{width:0}68%{width:351px}94%{width:351px}94.001%{width:0}100%{width:0}}
-      @media (prefers-reduced-motion:reduce){#k1 rect,#k2 rect,#k3 rect,#k4 rect,#k5 rect{animation:none;width:460px}.cur{animation:none;visibility:hidden}}
+      @media (prefers-reduced-motion:reduce){
+        #k1 rect,#k2 rect,#k3 rect,#k4 rect,#k5 rect,#k6 rect,#k7 rect,#k8 rect,#k9 rect,#k10 rect,#k11 rect,#k12 rect{animation:none;width:700px}
+        #curEnd{animation:none;visibility:visible}
+      }
     </style>
     <clipPath id="k1"><rect x="24" y="66" height="22" width="0"/></clipPath>
     <clipPath id="k2"><rect x="24" y="92" height="22" width="0"/></clipPath>
     <clipPath id="k3"><rect x="24" y="118" height="22" width="0"/></clipPath>
-    <clipPath id="k4"><rect x="24" y="144" height="22" width="0"/></clipPath>
-    <clipPath id="k5"><rect x="24" y="170" height="22" width="0"/></clipPath>
+    <clipPath id="k4"><rect x="24" y="170" height="22" width="0"/></clipPath>
+    <clipPath id="k5"><rect x="24" y="196" height="22" width="0"/></clipPath>
+    <clipPath id="k6"><rect x="24" y="222" height="22" width="0"/></clipPath>
+    <clipPath id="k7"><rect x="24" y="248" height="22" width="0"/></clipPath>
+    <clipPath id="k8"><rect x="24" y="274" height="22" width="0"/></clipPath>
+    <clipPath id="k9"><rect x="24" y="326" height="22" width="0"/></clipPath>
+    <clipPath id="k10"><rect x="24" y="352" height="22" width="0"/></clipPath>
+    <clipPath id="k11"><rect x="24" y="378" height="22" width="0"/></clipPath>
+    <clipPath id="k12"><rect x="24" y="404" height="22" width="0"/></clipPath>
   </defs>
-  <rect class="win" x="8" y="8" width="704" height="194" rx="12"/>
-  <rect class="bar" x="8" y="8" width="704" height="40" rx="12"/>
-  <rect class="bar" x="8" y="36" width="704" height="12"/>
+  <rect class="win" x="8" y="8" width="744" height="434" rx="12"/>
+  <rect class="bar" x="8" y="8" width="744" height="40" rx="12"/>
+  <rect class="bar" x="8" y="36" width="744" height="12"/>
   <circle cx="32" cy="28" r="6" fill="#ff5f56"/><circle cx="54" cy="28" r="6" fill="#ffbd2e"/><circle cx="76" cy="28" r="6" fill="#27c93f"/>
-  <text class="title" x="360" y="32" text-anchor="middle">rares@kali: ~ — zsh</text>
+  <text class="title" x="380" y="32" text-anchor="middle">rares@kali: ~ — zsh</text>
   <g class="mono">
     <g clip-path="url(#k1)"><text x="24" y="80"><tspan class="p">rares@kali:~$ </tspan><tspan class="c">whoami</tspan></text></g>
-    <g clip-path="url(#k2)"><text x="24" y="106" class="name">Bighiu Rareș · Cyber Security Analyst (CSIRT)</text></g>
-    <g clip-path="url(#k3)"><text x="24" y="132" class="cy">offensive security · detection · research</text></g>
-    <g clip-path="url(#k4)"><text x="24" y="158" class="cy">web pentest &amp; bug bounty · Burp Suite</text></g>
-    <g clip-path="url(#k5)"><text x="24" y="184" class="cy">Python automation · security PoCs · OSS</text></g>
+    <g clip-path="url(#k2)"><text x="24" y="106" class="bio">Currently working as a Cyber Security Analyst, with a strong interest in</text></g>
+    <g clip-path="url(#k3)"><text x="24" y="132" class="bio">offensive security and practical cybersecurity research.</text></g>
+    <g clip-path="url(#k4)"><text x="24" y="184" class="bio">I work with security platforms and monitoring tools, analyzing security</text></g>
+    <g clip-path="url(#k5)"><text x="24" y="210" class="bio">events, investigating alerts, and supporting incident response to help</text></g>
+    <g clip-path="url(#k6)"><text x="24" y="236" class="bio">improve an organization's security. Alongside that, I explore process</text></g>
+    <g clip-path="url(#k7)"><text x="24" y="262" class="bio">behavior, detection mechanisms, and system-level security through</text></g>
+    <g clip-path="url(#k8)"><text x="24" y="288" class="bio">hands-on projects and research. Open source contributor.</text></g>
+    <g clip-path="url(#k9)"><text x="24" y="340" class="bio">I use Python to develop automation tools, monitoring utilities, and</text></g>
+    <g clip-path="url(#k10)"><text x="24" y="366" class="bio">security-focused proof-of-concepts. I also do web security testing with</text></g>
+    <g clip-path="url(#k11)"><text x="24" y="392" class="bio">Burp Suite, exploring vulnerabilities and testing real-world scenarios</text></g>
+    <g clip-path="url(#k12)"><text x="24" y="418" class="bio">in a bug bounty context.</text></g>
   </g>
-  <rect id="c1" class="cur" x="204" y="66" width="9" height="17"/>
-  <rect id="c2" class="cur" x="429" y="92" width="9" height="17"/>
-  <rect id="c3" class="cur" x="384" y="118" width="9" height="17"/>
-  <rect id="c4" class="cur" x="357" y="144" width="9" height="17"/>
-  <rect id="c5" class="cur" x="375" y="170" width="9" height="17"/>
+  <rect id="curEnd" class="curEnd" x="240" y="404" width="9" height="17"/>
 </svg>
