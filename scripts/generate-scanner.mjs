@@ -106,13 +106,17 @@ for (const ch of MSG) {
 }
 const msgW = colCursor * PITCH;
 
+// escape any dynamic value before embedding it in the SVG (defensive:
+// login is a trusted GitHub owner today, but never trust-embed raw markup)
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
 const beamW = PITCH * 2;
 const DUR = 16; // full loop seconds
 const startX = MARGIN_X - beamW;
 const endX = MARGIN_X + gridW;
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Security scanner sweeping the contribution graph, then a breach">
-<title>contribution scan — ${login}</title>
+<title>contribution scan — ${esc(login)}</title>
 <defs>
 <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
   <stop offset="0" stop-color="#2ee66b" stop-opacity="0"/>
