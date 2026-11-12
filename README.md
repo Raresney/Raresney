@@ -23,6 +23,6 @@ GitHub: [@Raresney](https://github.com/Raresney)
 
 <div align="center">
 
-<img alt="Security scanner sweeping my contribution graph, then a breach" src="https://raw.githubusercontent.com/Raresney/Raresney/output/scanner.svg?v=2" width="820" />
+<img alt="Security scanner sweeping my contribution graph, then a breach" src="https://raw.githubusercontent.com/Raresney/Raresney/output/scanner.svg?v=3" width="820" />
 
 </div>
