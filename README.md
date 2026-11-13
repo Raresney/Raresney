@@ -11,9 +11,9 @@
 - **[PacketHighway](https://github.com/Raresney/PacketHighway)** — real-time 3D network-traffic visualization (scapy + React Three Fiber)
 - **[Cyber-lab](https://github.com/Raresney/Cyber-lab)** — hands-on lab: Python security tools, network analysis and pentest practice
 
-## Tools I reach for
+## Skills & tools
 
-<img alt="cat skills.txt" src="skills.svg?v=2" width="720" />
+<img alt="cat skills.txt" src="skills.svg?v=3" width="720" />
 
 ## Find me
 

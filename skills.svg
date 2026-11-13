@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="185" viewBox="0 0 720 185" role="img" aria-label="Terminal printing skills via cat skills.txt">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="289" viewBox="0 0 720 289" role="img" aria-label="Terminal printing skills via cat skills.txt">
   <title>rares@kali — cat skills.txt</title>
   <defs>
     <style>
@@ -7,18 +7,22 @@
       .mono{font:15px 'JetBrains Mono','Fira Code',Consolas,Monaco,monospace}
       .p{fill:#2ee66b}.c{fill:#c8d3f5}.lbl{fill:#e0af68}.val{fill:#9ece6a}
       /* each line wipes in once, then holds (fill-mode forwards, no loop) */
-      @keyframes type{from{width:0}to{width:400px}}
-      #k1 rect{animation:type .5s linear .2s forwards}
-      #k2 rect{animation:type .5s linear .9s forwards}
-      #k3 rect{animation:type .5s linear 1.6s forwards}
-      #k4 rect{animation:type .5s linear 2.3s forwards}
+      @keyframes type{from{width:0}to{width:680px}}
+      #k1 rect{animation:type .4s linear .2s forwards}
+      #k2 rect{animation:type .4s linear .8s forwards}
+      #k3 rect{animation:type .4s linear 1.4s forwards}
+      #k4 rect{animation:type .4s linear 2.0s forwards}
+      #k5 rect{animation:type .4s linear 2.6s forwards}
+      #k6 rect{animation:type .4s linear 3.2s forwards}
+      #k7 rect{animation:type .4s linear 3.8s forwards}
+      #k8 rect{animation:type .4s linear 4.4s forwards}
       /* resting cursor: appears after last line, then blinks forever */
       .curEnd{visibility:hidden;fill:#2ee66b}
-      #curEnd{animation:show 3.1s steps(1,end) forwards,blink 1s steps(1,end) 3.0s infinite}
-      @keyframes show{0%,96%{visibility:hidden}100%{visibility:visible}}
+      #curEnd{animation:show 4.9s steps(1,end) forwards,blink 1s steps(1,end) 4.8s infinite}
+      @keyframes show{0%,97%{visibility:hidden}100%{visibility:visible}}
       @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
       @media (prefers-reduced-motion:reduce){
-        #k1 rect,#k2 rect,#k3 rect,#k4 rect{animation:none;width:400px}
+        #k1 rect,#k2 rect,#k3 rect,#k4 rect,#k5 rect,#k6 rect,#k7 rect,#k8 rect{animation:none;width:680px}
         #curEnd{animation:none;visibility:visible}
       }
     </style>
@@ -26,17 +30,25 @@
     <clipPath id="k2"><rect x="24" y="92" height="22" width="0"/></clipPath>
     <clipPath id="k3"><rect x="24" y="118" height="22" width="0"/></clipPath>
     <clipPath id="k4"><rect x="24" y="144" height="22" width="0"/></clipPath>
+    <clipPath id="k5"><rect x="24" y="170" height="22" width="0"/></clipPath>
+    <clipPath id="k6"><rect x="24" y="196" height="22" width="0"/></clipPath>
+    <clipPath id="k7"><rect x="24" y="222" height="22" width="0"/></clipPath>
+    <clipPath id="k8"><rect x="24" y="248" height="22" width="0"/></clipPath>
   </defs>
-  <rect class="win" x="8" y="8" width="704" height="169" rx="12"/>
+  <rect class="win" x="8" y="8" width="704" height="273" rx="12"/>
   <rect class="bar" x="8" y="8" width="704" height="40" rx="12"/>
   <rect class="bar" x="8" y="36" width="704" height="12"/>
   <circle cx="32" cy="28" r="6" fill="#ff5f56"/><circle cx="54" cy="28" r="6" fill="#ffbd2e"/><circle cx="76" cy="28" r="6" fill="#27c93f"/>
   <text class="title" x="360" y="32" text-anchor="middle">rares@kali: ~ — zsh</text>
   <g class="mono">
     <g clip-path="url(#k1)"><text x="24" y="80"><tspan class="p">rares@kali:~$ </tspan><tspan class="c">cat skills.txt</tspan></text></g>
-    <g clip-path="url(#k2)"><text x="24" y="106" xml:space="preserve"><tspan class="lbl">[lang] </tspan><tspan class="val">Python · TypeScript · Rust · Bash</tspan></text></g>
-    <g clip-path="url(#k3)"><text x="24" y="132" xml:space="preserve"><tspan class="lbl">[os]   </tspan><tspan class="val">Linux · Kali Linux</tspan></text></g>
-    <g clip-path="url(#k4)"><text x="24" y="158" xml:space="preserve"><tspan class="lbl">[sec]  </tspan><tspan class="val">Wireshark · Nmap · Burp Suite</tspan></text></g>
+    <g clip-path="url(#k2)"><text x="24" y="106" xml:space="preserve"><tspan class="lbl">[lang]  </tspan><tspan class="val">Python · TypeScript · Rust · C++ · C# · Java · Bash</tspan></text></g>
+    <g clip-path="url(#k3)"><text x="24" y="132" xml:space="preserve"><tspan class="lbl">[os]    </tspan><tspan class="val">Linux · Kali Linux</tspan></text></g>
+    <g clip-path="url(#k4)"><text x="24" y="158" xml:space="preserve"><tspan class="lbl">[dev]   </tspan><tspan class="val">Docker · Git · Jupyter · Hugging Face · REST APIs</tspan></text></g>
+    <g clip-path="url(#k5)"><text x="24" y="184" xml:space="preserve"><tspan class="lbl">[sec]   </tspan><tspan class="val">Burp Suite · Nmap · Wireshark · Hydra · Ghidra · IDA · CyberChef</tspan></text></g>
+    <g clip-path="url(#k6)"><text x="24" y="210" xml:space="preserve"><tspan class="lbl">[red]   </tspan><tspan class="val">Pentesting · Prompt Injection · AV/EDR Bypass · Phishing Sim</tspan></text></g>
+    <g clip-path="url(#k7)"><text x="24" y="236" xml:space="preserve"><tspan class="lbl">[blue]  </tspan><tspan class="val">Threat Analysis · Malware Analysis · Log Analysis · SIEM</tspan></text></g>
+    <g clip-path="url(#k8)"><text x="24" y="262" xml:space="preserve"><tspan class="lbl">[certs] </tspan><tspan class="val">Google Cybersecurity · CAISR · TryHackMe (100+ rooms)</tspan></text></g>
   </g>
-  <rect id="curEnd" class="curEnd" x="348" y="144" width="9" height="17"/>
+  <rect id="curEnd" class="curEnd" x="586" y="248" width="9" height="17"/>
 </svg>
